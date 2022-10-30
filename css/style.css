@@ -5,6 +5,7 @@ body {
 }
 
 ul.nav_list {
+    list-style: none;
     margin: 0;
     padding: 0;
 }
@@ -17,9 +18,6 @@ ul.nav_list li {
     margin-bottom: 30px;
 }
 
-.nav_list {
-    list-style: none;
-}
 
 .nav_list li::before {
     content: "Image";
@@ -27,9 +25,9 @@ ul.nav_list li {
     font-size: 14px;
     color: #FFFFFF;
     display: inline-block;
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 80px;
+    position: relative;
+    top: 60px;
+    left: 80px;
 }
 
 
